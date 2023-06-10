@@ -680,6 +680,19 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 .sh {display: none;}
 .dn {display: none;}
 .fs1 {font-size: 20px;}
+.fs2 {
+	background: none !important;
+	border-radius: 0 !important;
+	line-height: 2.3 !important;
+	text-align: center !important;
+	border: none !important;
+	margin-bottom: 20px !important;
+	/*color: #d76593 !important;	/*文字色*/
+	font-size: 24px !important;	/*文字サイズ*/
+	border-bottom: 1px dashed #d76593 !important;	/*下線の幅、線種、色*/
+	letter-spacing: 0.2em !important;		/*文字間隔を広くとる設定*/
+	/*text-shadow: 8px 8px #eee !important;	/*テキストの影。右へ、下へ、色。*/
+}
 img.thumbnail {width: 80px;height: 80px;border: 1px solid #ccc;}
 img.thumbnail:hover {border: 1px solid #333;}
 
