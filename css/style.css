@@ -690,9 +690,24 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	/*color: #d76593 !important;	/*文字色*/
 	font-size: 24px !important;	/*文字サイズ*/
 	border-bottom: 1px dashed #d76593 !important;	/*下線の幅、線種、色*/
-	letter-spacing: 0.2em !important;		/*文字間隔を広くとる設定*/
-	/*text-shadow: 8px 8px #eee !important;	/*テキストの影。右へ、下へ、色。*/
+	/*letter-spacing: 0.01em !important;		/*文字間隔を広くとる設定*/
+	/*text-shadow: 4px 4px #eee !important;	/*テキストの影。右へ、下へ、色。*/
 }
+.fs3 {font-size: 20px;
+	text-align: center;}
+.fs4 {font-size: 20px;}
+.transparent-table {
+  font-size: 20px;
+  border-collapse: collapse;
+}
+.transparent-table th,
+.transparent-table td {
+  border: none;
+  background-color: transparent;
+  ext-align: center;
+  vertical-align: middle; /* センター揃えにする */
+}
+
 img.thumbnail {width: 80px;height: 80px;border: 1px solid #ccc;}
 img.thumbnail:hover {border: 1px solid #333;}
 
@@ -762,11 +777,19 @@ header {
 	height: 70px;	/*ブロックの高さ*/
 }
 /*トップページのheader*/
+/*
 #top header {
 	/*background: #d76593;	/*背景色（古いブラウザ用）*/
-	background: #f2fcfc;	/*背景色（古いブラウザ用）*/
-	background: url(../images/bg1.png) no-repeat right center/auto 130%,radial-gradient(circle 300px at 35% -100px,#f3c5e0,#d76593);
+	/*background: #f2fcfc;	/*背景色（古いブラウザ用）*/
+	/*background: url(../images/bg1.png) no-repeat right center/auto 130%,radial-gradient(circle 300px at 35% -100px,#f3c5e0,#d76593);
 	height: 200px;	/*ブロックの高さ*/
+/*}*/
+#top header {
+	/*background: #d76593 url(../images/bg1.png) no-repeat right center;	/*背景色（古いブラウザ用）*/
+	/*background: url(../images/bg1.png) no-repeat right center/auto 130%,radial-gradient(circle 600px at 22% -200px,#f3c5e0,#d76593);	/*背景画像の読み込み、right(右)＆center(上下中央)に配置 / 画像幅は自動(auto)で高さ(130%)、circleは円形、600pxは円のサイズ。左から22%、上から-200pxの場所に配置。*/
+	background: url(../images/bg1.png);	/*背景色（古いブラウザ用）*/
+	background: url(../images/bg1.png);	/*背景画像の読み込み、right(右)＆center(上下中央)に配置 / 画像幅は自動(auto)で高さ(130%)、circleは円形、600pxは円のサイズ。左から22%、上から-200pxの場所に配置。*/
+	height: 600px;	/*ブロックの高さ*/
 }
 /*トップページのロゴ画像*/
 #top #logo img {
@@ -973,5 +996,16 @@ body {
 .sh {display: block;}
 .pc {display: none;}
 .fs1 {font-size: 14px;}
+.fs3 {text-align: center;}
+
+.transparent-table {
+  border-collapse: collapse;
+}
+.transparent-table th,
+.transparent-table td {
+  border: none;
+  background-color: transparent;
+  vertical-align: middle; /* センター揃えにする */
+}
 
 }
