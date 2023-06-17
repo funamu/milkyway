@@ -787,8 +787,8 @@ header {
 #top header {
 	/*background: #d76593 url(../images/bg1.png) no-repeat right center;	/*背景色（古いブラウザ用）*/
 	/*background: url(../images/bg1.png) no-repeat right center/auto 130%,radial-gradient(circle 600px at 22% -200px,#f3c5e0,#d76593);	/*背景画像の読み込み、right(右)＆center(上下中央)に配置 / 画像幅は自動(auto)で高さ(130%)、circleは円形、600pxは円のサイズ。左から22%、上から-200pxの場所に配置。*/
-	background: url(../images/bg1.png);	/*背景色（古いブラウザ用）*/
-	background: url(../images/bg1.png);	/*背景画像の読み込み、right(右)＆center(上下中央)に配置 / 画像幅は自動(auto)で高さ(130%)、circleは円形、600pxは円のサイズ。左から22%、上から-200pxの場所に配置。*/
+	background: url(../images/bg2.png);	/*背景色（古いブラウザ用）*/
+	background: url(../images/bg2.png);	/*背景画像の読み込み、right(右)＆center(上下中央)に配置 / 画像幅は自動(auto)で高さ(130%)、circleは円形、600pxは円のサイズ。左から22%、上から-200pxの場所に配置。*/
 	height: 600px;	/*ブロックの高さ*/
 }
 /*トップページのロゴ画像*/
